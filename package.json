@@ -1,0 +1,30 @@
+{
+  "name": "crmgraphql",
+  "version": "1.0.0",
+  "description": "Back del curso React Avanzado",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iGomezP/ReactAvanzadoBack.git"
+  },
+  "author": "iGomezP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iGomezP/ReactAvanzadoBack/issues"
+  },
+  "homepage": "https://github.com/iGomezP/ReactAvanzadoBack#readme",
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
